@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=devce-width, initial-scale=1.0">
+    <title>Blog</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="header__logo logo">
+                    <img class="logo__img" src="img/logo.jpg" alt="Logo">
+                </div>
+                <nav class="header__nav">
+                    <ul class="header__menu menu">
+                        <li class="menu__item">Рубрики</li>
+                        <li class="menu__item dropdown">
+                            Галерея
+                            <ul class="dropdown__list">
+                                <li class="dropdown__item">
+                                    <a href="#" class="dropdown__link">Lorem, ipsum 1</a>
+                                </li>
+                                <li class="dropdown__item">Lorem, ipsum 2</li>
+                                <li class="dropdown__item">Lorem, ipsum 3</li>
+                            </ul>
+                        </li>
+                        <li class="menu__item dropdown">Контакты
+                            <ul class="dropdown__list">
+                                <li class="dropdown__item">1</li>
+                                <li class="dropdown__item">2</li>
+                                <li class="dropdown__item">3</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="header__enter">
+                    <button class="btn btn--enter">ВХОД</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="section section--margin">
+            <div class="container">
+                <div class="title title--margin">
+                    Сетка флоатов (12 позиций)
+                    <hr class="title__hr">
+                </div>
+                <div class="grid">
+                    <div class="row row--h48px">
+                        <div class="col col--11 col--grey"></div>
+                        <div class="col col--1 col--grey"></div>
+                    </div>
+                    <div class="row row--h48px">
+                        <div class="col col--10 col--grey"></div>
+                        <div class="col col--2 col--grey"></div>
+                    </div>
+                    <div class="row row--h48px">
+                        <div class="col col--9 col--grey"></div>
+                        <div class="col col--3 col--grey"></div>
+                    </div>
+                    <div class="row row--h48px">
+                        <div class="col col--8 col--grey"></div>
+                        <div class="col col--4 col--grey"></div>
+                    </div>
+                    <div class="row row--h48px">
+                        <div class="col col--7 col--grey"></div>
+                        <div class="col col--5 col--grey"></div>
+                    </div>
+                    <div class="row row--h48px">
+                        <div class="col col--6 col--grey"></div>
+                        <div class="col col--6 col--grey"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section section--margin">
+            <div class="container">
+                <div class="title title--margin">
+                    Сетка флоатов, с отступами
+                    <hr class="title__hr">
+                </div>
+                <div class="grid-indent">
+                    <div class="row row--h48px">
+                        <div class="col col--11 col--grey"></div>
+                        <div class="col col--1 col--grey"></div>
+                    </div>
+                    <div class="row row--h48px">
+                        <div class="col col--10 col--grey"></div>
+                        <div class="col col--2 col--grey"></div>
+                    </div>
+                    <div class="row row--h48px">
+                        <div class="col col--9 col--grey"></div>
+                        <div class="col col--3 col--grey"></div>
+                    </div>
+                    <div class="row row--h48px">
+                        <div class="col col--8 col--grey"></div>
+                        <div class="col col--4 col--grey"></div>
+                    </div>
+                    <div class="row row--h48px">
+                        <div class="col col--7 col--grey"></div>
+                        <div class="col col--5 col--grey"></div>
+                    </div>
+                    <div class="row row--h48px">
+                        <div class="col col--6 col--grey"></div>
+                        <div class="col col--6 col--grey"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section section--margin">
+            <div class="container">
+                <div class="title title--margin">
+                    Отзывы посетителей нашего сайта
+                    <hr class="title__hr">
+                    </hr>
+                </div>
+                <div class="reviews">
+                    <div class="reviews__item review row">
+                        <div class="review__photo col">
+                            <img src="img/avatar.png" alt="Фото посетителя">
+                        </div>
+                        <div class="col">
+                            <div class="row">
+                                <div class="review__name">Иван Иванов</div>
+                                <div class="review__date row">
+                                    <img src="img/calendar.png" alt="icon" class="review__icon">
+                                    11 февраля 2016
+                                </div>
+                            </div>
+                            <div class="review__text">
+                                Говоря в деталях, для того чтобы товар бросался в глаза и его хотелось купить,
+                                с помощью акцентного освещения получается сделать четкие грани,
+                                что обеспечивает контрастность в освещении. Также с помощью порфесионального
+                                светотехнического оборудования можно варьировать оттенок белого света.
+                                Например, для каждой отдельной коллекции необходимо свое восприятие,
+                                а также естественное освещение, что повышает уровень интереса клиентов.
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="review__hr">
+                    <div class="reviews__item review row">
+                        <div class="review__photo col">
+                            <img src="img/avatar.png" alt="Фото посетителя">
+                        </div>
+                        <div class="col">
+                            <div class="row">
+                                <div class="review__name">Иван Иванов</div>
+                                <div class="review__date row">
+                                    <img src="img/calendar.png" alt="icon" class="review__icon">
+                                    11 февраля 2016
+                                </div>
+                            </div>
+                            <div class="review__text">
+                                Говоря в деталях, для того чтобы товар бросался в глаза и его хотелось купить,
+                                с помощью акцентного освещения получается сделать четкие грани,
+                                что обеспечивает контрастность в освещении. Также с помощью порфесионального
+                                светотехнического оборудования можно варьировать оттенок белого света.
+                                Например, для каждой отдельной коллекции необходимо свое восприятие,
+                                а также естественное освещение, что повышает уровень интереса клиентов.
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="review__hr">
+                    <div class="reviews__item review row">
+                        <div class="review__photo col">
+                            <img src="img/avatar.png" alt="Фото посетителя">
+                        </div>
+                        <div class="col">
+                            <div class="row">
+                                <div class="review__name">Иван Иванов</div>
+                                <div class="review__date row">
+                                    <img src="img/calendar.png" alt="icon" class="review__icon">
+                                    11 февраля 2016
+                                </div>
+                            </div>
+                            <div class="review__text">
+                                Говоря в деталях, для того чтобы товар бросался в глаза и его хотелось купить,
+                                с помощью акцентного освещения получается сделать четкие грани,
+                                что обеспечивает контрастность в освещении. Также с помощью порфесионального
+                                светотехнического оборудования можно варьировать оттенок белого света.
+                                Например, для каждой отдельной коллекции необходимо свое восприятие,
+                                а также естественное освещение, что повышает уровень интереса клиентов.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section section--margin">
+            <div class="container">
+                <div class="title  title--center title--margin">
+                    Галерея
+                    <hr class="title__hr">
+                </div>
+                <div class="gallery">
+                        <div class="gallery__item">
+                            <div class="gallery__photo--wrapper">
+                                <img src="img/img-gallery.jpg" alt="Фото" class="gallery__photo">
+                            </div>
+                            <div class="gallery__text">
+                                Lorem ipsum dolor sit amet consectetur. <br>
+                                Lorem ipsum dolor sit amet.
+                            </div>
+                        </div>
+                        <div class="gallery__item">
+                            <div class="gallery__photo--wrapper">
+                                <img src="img/img-gallery.jpg" alt="Фото" class="gallery__photo">
+                            </div>
+                            <div class="gallery__text">
+                                Lorem ipsum dolor sit amet consectetur. <br>
+                                Lorem ipsum dolor sit amet.
+                            </div>
+                        </div>
+                        <div class="gallery__item">
+                            <div class="gallery__photo--wrapper">
+                                <img src="img/img-gallery.jpg" alt="Фото" class="gallery__photo">
+                            </div>
+                            <div class="gallery__text">
+                                Lorem ipsum dolor sit amet consectetur. <br>
+                                Lorem ipsum dolor sit amet.
+                            </div>
+                        </div>
+                        <div class="gallery__item">
+                            <div class="gallery__photo--wrapper">
+                                <img src="img/img-gallery.jpg" alt="Фото" class="gallery__photo">
+                            </div>
+                            <div class="gallery__text">
+                                Lorem ipsum dolor sit amet consectetur. <br>
+                                Lorem ipsum dolor sit amet.
+                            </div>
+                        </div>
+
+                        <div class="gallery__item">
+                            <div class="gallery__photo--wrapper">
+                                <img src="img/img-gallery.jpg" alt="Фото" class="gallery__photo">
+                            </div>
+                            <div class="gallery__text">
+                                Lorem ipsum dolor sit amet consectetur. <br>
+                                Lorem ipsum dolor sit amet.
+                            </div>
+                        </div>
+                        <div class="gallery__item">
+                            <div class="gallery__photo--wrapper">
+                                <img src="img/img-gallery.jpg" alt="Фото" class="gallery__photo">
+                            </div>
+                            <div class="gallery__text">
+                                Lorem ipsum dolor sit amet consectetur. <br>
+                                Lorem ipsum dolor sit amet.
+                            </div>
+                        </div>
+                        <div class="gallery__item">
+                            <div class="gallery__photo--wrapper">
+                                <img src="img/img-gallery.jpg" alt="Фото" class="gallery__photo">
+                            </div>
+                            <div class="gallery__text">
+                                Lorem ipsum dolor sit amet consectetur. <br>
+                                Lorem ipsum dolor sit amet.
+                            </div>
+                        </div>
+                        <div class="gallery__item">
+                            <div class="gallery__photo--wrapper">
+                                <img src="img/img-gallery.jpg" alt="Фото" class="gallery__photo">
+                            </div>
+                            <div class="gallery__text">
+                                Lorem ipsum dolor sit amet consectetur. <br>
+                                Lorem ipsum dolor sit amet.
+                            </div>
+                        </div>
+                    
+                    
+                </div>
+            </div>
+        </section>
+    </main>
+
+</body>
+
+</html>
