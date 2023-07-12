@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/en/word-counter", {data:[{}],fetch:{},mutations:void 0});

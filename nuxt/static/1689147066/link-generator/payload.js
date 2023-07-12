@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/link-generator", {data:[{}],fetch:{},mutations:void 0});
